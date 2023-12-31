@@ -17,7 +17,7 @@ const TestimonialCard = ({ reviewText, name, image, role }) => {
               size={18}
               isHalf={true}
               activeColor="#ffd700"
-              value={4.5}
+              value={4 + Math.random()}
               edit={false}
             />
           </div>

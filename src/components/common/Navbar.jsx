@@ -52,12 +52,12 @@ const Navbar = () => {
 
   return (
     <div
-      className="navbar h-[45px] fixed w-full z-20 top-0 left-0 px-[2%]  md:px-[6%] flex-center-between py-[0.35rem] bg-white/60 border-b backdrop-blur-sm dark:border-dark dark:bg-card-dark/60"
+      className="navbar h-[65px] fixed w-full z-20 top-0 left-0 px-[2%]  md:px-[6%] flex-center-between py-[0.35rem] bg-white/60 border-b backdrop-blur-sm dark:border-dark dark:bg-card-dark/60"
       onMouseOver={handleClose}
     >
       <Link to="/" className="flex-shrink-0 flex-align-center gap-x-1">
         <BiBuildingHouse className="text-3xl text-primary" />
-        <h1 className="hidden md:block">MartVilla</h1>
+        <h1 className="hidden md:block">BuilderFile</h1>
       </Link>
 
       <div className="flex-align-center gap-x-4">
@@ -158,9 +158,9 @@ const Navbar = () => {
             {darkMode ? <FiSun /> : <FiMoon />}
           </div>
           {/*----------------------------- Profile Icon-------------------------------------------------- */}
-          <div className="bg-white shadow-md icon-box dark:bg-dark-light hover:shadow-lg hover:bg-transparent">
+          {/* <div className="bg-white shadow-md icon-box dark:bg-dark-light hover:shadow-lg hover:bg-transparent">
             <BiUser />
-          </div>
+          </div> */}
           {/*------------------------------- Mobile Menu Toogle------------------------- */}
           <div
             className="icon-box md:hidden"

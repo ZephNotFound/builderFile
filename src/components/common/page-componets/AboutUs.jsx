@@ -4,14 +4,14 @@ const AboutUs = () => {
   return (
     <div className="pt-16 pb-20">
       <div className="flex flex-wrap gap-24">
-        <div className="relative flex-1 basis-[18rem] border">
+        <div className="relative flex-1 basis-[18rem]">
           <img
-            src="/images/property (16).jpg"
+            src="/images/plan1.png"
             alt=""
             className="object-cover w-full h-full rounded-lg"
           />
           <img
-            src="/images/property (26).jpg"
+            src="/images/frontelevation.jpg"
             alt=""
             className="absolute object-cover w-48 h-64 border-4 border-white rounded-lg sm:w-72 sm:h-80 dark:border-dark -bottom-20 -right-2 md:-right-20"
           />
@@ -20,9 +20,18 @@ const AboutUs = () => {
           <h1 className="sub-heading">about us</h1>
           <h1 className="heading">we decorate your home environment</h1>
           <p className="mt-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo laborum
-            earum saepe quibusdam, temporibus aut sapiente, ea alias libero,
-            ipsam perferendis. Consectetur maiores, dicta.
+            Welcome to BuilderFile, your all-in-one destination for envisioning
+            and realizing your dream home. <br />
+            At BuilderFile, we seamlessly blend state-of-the-art technology with
+            construction expertise, offering
+            <br /> meticulously crafted plans, detailed blueprints, and
+            immersive 3D models. Our commitment goes beyond
+            <br /> design as we guide you through the entire construction
+            process, ensuring a seamless journey from
+            <br /> concept to completion. With BuilderFile, your vision comes to
+            life with precision and passion, <br />
+            transforming your dream into a tangible, beautifully constructed
+            reality.
           </p>
           <div className="mt-4">
             <div className="flex-align-center gap-x-2">
@@ -34,8 +43,8 @@ const AboutUs = () => {
                   the perfect residency
                 </h1>
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Saepe, quisquam?
+                  A well planned, comfortable, beautifully crafted reality
+                  called Home.
                 </p>
               </div>
             </div>
@@ -49,8 +58,8 @@ const AboutUs = () => {
                   global architect experts
                 </h1>
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Saepe, quisquam?
+                  Our Architects meticulously craft plans based on your
+                  requirements.
                 </p>
               </div>
             </div>
@@ -63,10 +72,7 @@ const AboutUs = () => {
                 <h1 className="font-semibold capitalize">
                   total payment transparency
                 </h1>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Saepe, quisquam?
-                </p>
+                <p>Totally free doing it in my free time.</p>
               </div>
             </div>
           </div>

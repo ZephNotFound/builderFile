@@ -19,6 +19,7 @@ import {
 } from "react-icons/fa";
 import { FiHeadphones } from "react-icons/fi";
 
+// https://github.com/WabweniBrian/mart-villa
 export const property = [
   {
     id: 1,
@@ -400,28 +401,28 @@ export const property = [
 export const testimonials = [
   {
     id: 1,
-    name: "Wabz Braize",
-    role: "Front-end developer",
-    image: "/images/avatar.png",
+    name: "Saul",
+    role: "Janitor",
+    image: "/images/Saul.jpg",
     reviewText:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis porro ex perferendis, nulla consectetur consequuntur odio qui adipisci harum earum dolor, eius accusantium quia praesentium.",
-  },
+      "Exceptional experience working with Bob and his team to build our penthouse-meticulous attention to detail, transparent communication, and top-notch craftsmanship. They exceeded our expectations, delivering a dream home on time. Highly recommend for a stress-free and enjoyable construction process."
+    },
   {
     id: 2,
-    name: "Ethan Hunt",
-    role: "Backend engineer",
-    image: "/images/avatar-1.png",
+    name: "Robert Jr",
+    role: "DB Administrator",
+    image: "/images/RD.png",
     reviewText:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis porro ex perferendis, nulla consectetur consequuntur odio qui adipisci harum earum dolor, eius accusantium quia praesentium.",
-  },
+      "Sponge and team provided an outstanding experience constructing our 2BHK duplex house—impressive attention to detail, transparent communication, and impeccable craftsmanship. They surpassed our expectations, delivering a beautiful home on schedule. Highly recommend for a seamless and enjoyable construction journey."
+    },
   {
     id: 3,
-    name: "Raven Kent",
+    name: "Antony Kent",
     role: "UI Designer",
-    image: "/images/avatar-2.png",
+    image: "/images/homelander.jpg",
     reviewText:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis porro ex perferendis, nulla consectetur consequuntur odio qui adipisci harum earum dolor, eius accusantium quia praesentium.",
-  },
+      "Potato and team's exceptional work on our 6BHK duplex surpassed expectations. Meticulous attention, clear communication, and superb craftsmanship made the construction process seamless, delivering a beautiful home on schedule. Highly recommended for an enjoyable building experience."
+    },
 ];
 
 export const feeds = [
@@ -547,27 +548,27 @@ export const feeds = [
 export const teamMembers = [
   {
     id: 1,
-    name: "Wabz Braize",
-    role: "Front-end developer",
-    image: "/images/avatar.png",
+    name: "Bob",
+    role: "Project Manager",
+    image: "/images/bob.png",
   },
   {
     id: 2,
-    name: "Ethan Hunt",
-    role: "Backend  engineer",
-    image: "/images/avatar-1.png",
+    name: "Spongebob",
+    role: "Civil Engineer",
+    image: "/images/sponge.png",
   },
   {
     id: 3,
-    name: "Raven Kent",
-    role: "UI Designer",
-    image: "/images/avatar-2.png",
+    name: "Tony",
+    role: "Architect",
+    image: "/images/coc.png",
   },
   {
     id: 4,
-    name: "John Doe",
-    role: "Web developer",
-    image: "/images/avatar-3.png",
+    name: "Mr.Potato",
+    role: "Supervisor",
+    image: "/images/pop.png",
   },
   {
     id: 5,
@@ -589,7 +590,7 @@ export const teamMembers = [
   },
   {
     id: 8,
-    name: "Wabz Braize",
+    name: "Bob The Builder",
     role: "Front-end developer",
     image: "/images/avatar.png",
   },

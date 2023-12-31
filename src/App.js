@@ -5,8 +5,6 @@ import BackToTopButton from "./components/common/BackToTopButton";
 import Footer from "./components/common/Footer";
 import Navbar from "./components/common/Navbar";
 import {
-  HomeTwo,
-  HomeThree,
   About,
   AboutTwo,
   Services,
@@ -69,8 +67,6 @@ function App() {
       >
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/home-2" element={<HomeTwo />} />
-          <Route path="/home-3" element={<HomeThree />} />
           <Route path="/about-us" element={<About />} />
           <Route path="/about-2" element={<AboutTwo />} />
           <Route path="/services" element={<Services />} />

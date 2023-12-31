@@ -6,13 +6,7 @@ import {
   Services,
   Testimonial,
 } from "../components/common/page-componets";
-import {
-  Feeds,
-  Filters,
-  Hero,
-  Invest,
-  Speciality,
-} from "../components/home/home-1";
+import { Filters, Hero, Invest, Speciality } from "../components/home/home-1";
 
 const Home = () => {
   return (
@@ -27,7 +21,6 @@ const Home = () => {
       <Projects />
       <Testimonial />
       <Brands />
-      <Feeds />
     </div>
   );
 };

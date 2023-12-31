@@ -13,12 +13,12 @@ const Footer = () => {
           <div className="flex-1 basis-[10rem]">
             <Link to="/" className="flex-shrink-0 flex-align-center gap-x-1">
               <BiBuildingHouse className="text-3xl text-primary" />
-              <h1 className="hidden md:block">MartVilla</h1>
+              <h1 className="hidden md:block">BuilderFile</h1>
             </Link>
             <div className="mt-3">
               <p className="text-sm">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab
-                harum explicabo illo, magnam vitae expedita.
+                A well planned, comfortable, beautifully crafted reality called
+                Home.
               </p>
               <div className="gap-5 my-6 flex-center-center">
                 <div className="icon-box bg-dark-light hover:bg-hover-color-dark">
@@ -55,9 +55,6 @@ const Footer = () => {
               <li className="my-3 text-muted">
                 <a href="#">Contact support</a>
               </li>
-              <li className="my-3 text-muted">
-                <a href="#">2 year guarantee</a>
-              </li>
             </ul>
           </div>
 
@@ -65,16 +62,16 @@ const Footer = () => {
             <h2 className="text-xl font-semibold">Quick Links</h2>
             <ul>
               <li className="my-3 text-muted">
-                <a href="#"> About Us</a>
+                <a href="/about-us"> About Us</a>
               </li>
               <li className="my-3 text-muted">
-                <a href="#">Services</a>
+                <a href="/property">Property</a>
               </li>
               <li className="my-3 text-muted">
-                <a href="#">Blog</a>
+                <a href="/contact">Contact</a>
               </li>
               <li className="my-3 text-muted">
-                <a href="#">Portifolio</a>
+                <a href="/faqs">FAQ</a>
               </li>
             </ul>
           </div>
@@ -83,7 +80,7 @@ const Footer = () => {
             <h2 className="text-xl font-semibold">Business</h2>
             <ul>
               <li className="my-3 text-muted">
-                <a href="#"> Success</a>
+                <a href="/about-us"> Testimonial</a>
               </li>
               <li className="my-3 text-muted">
                 <a href="#">Guide</a>
@@ -93,9 +90,6 @@ const Footer = () => {
               </li>
               <li className="my-3 text-muted">
                 <a href="#">Terms & Conditions</a>
-              </li>
-              <li className="my-3 text-muted">
-                <a href="#">Pricacy Policy</a>
               </li>
             </ul>
           </div>
@@ -121,8 +115,8 @@ const Footer = () => {
       </footer>
       <div className="py-2 mt-3 text-center border-t text-muted border-dark">
         <p>
-          Created By <span className="text-primary">Wabweni Brian</span> | All
-          Rights Reserved
+          Created with <span className="text-primary">Love</span> | All Rights
+          Reserved
         </p>
       </div>
     </div>

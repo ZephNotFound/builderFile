@@ -17,8 +17,7 @@ const ContactInfo = () => {
           <FiMail />
         </div>
         <h1 className="mt-2 text-lg font-semibold">Email Address</h1>
-        <p>martvilla@gmail.com</p>
-        <p>wabwenib66@gmail.com</p>
+        <p>BuilderFile@gmail.com</p>
       </div>
       <div className="text-center">
         <div className="icon-box !h-14 !w-14 !bg-primary text-white mx-auto text-2xl">
