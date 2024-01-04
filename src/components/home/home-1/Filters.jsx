@@ -25,13 +25,13 @@ const Filters = () => {
                 id=""
                 className="w-full bg-transparent border-0 outline-none dark:bg-hover-color-dark opacity-70"
               >
-                <option value="condors">Condors</option>
-                <option value="offfice buildings">Offfice Buildings</option>
+                <option value="condors">House</option>
+                <option value="offfice buildings">Villas</option>
                 <option value="apartments">Apartments</option>
-                <option value="mansions">Mansions</option>
-                <option value="real estate">Real Estate</option>
+                <option value="mansions">Compact homes</option>
+                {/* <option value="real estate">Real Estate</option>
                 <option value="penthouse">Penthouse</option>
-                <option value="living room">Living Room</option>
+                <option value="living room">Living Room</option> */}
               </select>
             </div>
           </div>
@@ -58,7 +58,7 @@ const Filters = () => {
             </div>
           </div>
           <div className="flex-1 w-full p-2 border rounded-lg md:w-fit bg-slate-100 dark:bg-hover-color-dark dark:border-dark-light">
-            <h1 className="font-bold">For</h1>
+            <h1 className="font-bold">Size</h1>
             <div className="flex-align-center gap-x-2">
               <BiBriefcase />
               <select
@@ -66,8 +66,10 @@ const Filters = () => {
                 id=""
                 className="w-full bg-transparent border-0 outline-none opacity-70 dark:bg-hover-color-dark"
               >
-                <option value="sell">Sell</option>
-                <option value="rent">Rent</option>
+                <option value="600sqft">600 sqft</option>
+                <option value="1200sqft">1200 sqft</option>
+                <option value="1500sqft">1500 sqft</option>
+                <option value="2400sqft">2400 sqft</option>
               </select>
             </div>
           </div>

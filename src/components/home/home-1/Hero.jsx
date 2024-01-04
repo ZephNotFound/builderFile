@@ -11,13 +11,14 @@ const Hero = () => {
       <div className="absolute top-0 right-0 rounded-full bg-[#04a7ff]/30 dark:bg-[#04a7ff]/50 w-72 h-72 -z-10 blur-[120px]"></div>
       <div className="flex-1 basis-[20rem]">
         <h1 className="text-4xl font-bold capitalize md:text-5xl">
-          property consisting <br /> land and buildings
+          property Planning, <br /> Blueprints and Elevations
         </h1>
         <div className="pl-3 mt-5 border-l-4 border-primary">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic nulla
-            unde exercitationem! Recusandae error quaerat sapiente quibusdam
-            culpa magni eius?
+            We offers easy blueprint creation for efficient property design.{" "}
+            <br />
+            Users can customize detailed plans, making it a go-to resource for
+            homeowners, architects, and builders.
           </p>
         </div>
         <div className="mt-6 text-center flex-align-center gap-x-6">
